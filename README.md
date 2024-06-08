@@ -1,55 +1,52 @@
-# OpenToonz
-
-[日本語](./doc/README_ja.md)
-
-[![](https://ci.appveyor.com/api/projects/status/oa5l5pc964h8fv49/branch/master?svg=true)](https://ci.appveyor.com/project/opentoonz/opentoonz)
-[![](https://travis-ci.org/opentoonz/opentoonz.svg?branch=master)](https://travis-ci.org/opentoonz/opentoonz)
-[![](https://github.com/opentoonz/opentoonz/workflows/Build/badge.svg?branch=master)](https://github.com/opentoonz/opentoonz/actions)
-[![Translation status](https://hosted.weblate.org/widgets/opentoonz/-/svg-badge.svg)](https://hosted.weblate.org/engage/opentoonz/)
-## What is OpenToonz?
-
-OpenToonz is a 2D animation software published by 
-[DWANGO](http://dwango.co.jp/english/). It is based on **Toonz Studio
-Ghibli Version**, originally developed in Italy by
-[Digital Video, Inc.](http://www.toonz.com/), and customized by
-[Studio Ghibli](http://www.ghibli.jp/) over many years of production.
-
-## Program Requirements
-
-Please refer to the OpenToonz site at <https://opentoonz.github.io/e/index.html>.
-
-## Installation
-
-Please download and install OpenToonz from the latest installer at <https://opentoonz.github.io/e/index.html>.
-
-Older versions and unstable nightly build are also available at <https://github.com/opentoonz/opentoonz/releases>.
-
-## How to Build Locally
-
-- [Windows](./doc/how_to_build_win.md)
-- [OS X](./doc/how_to_build_macosx.md)
-- [Linux](./doc/how_to_build_linux.md)
-- [BSD](./doc/how_to_build_bsd.md)
-
-For instructions on how to build stylesheets, please [see here](./doc/how_to_stylesheet.md).
-
-Can't develop but still want to help? Help us test individual Pull Requests before they are merged with [these steps](./doc/how_to_test_prs.md).
-
-## Community
-
-- To share tips or to troubleshoot, join the [Google OpenToonz Users forum](https://groups.google.com/forum/#!forum/opentoonz_en)
-- If you found a bug with the software after troubleshooting, or are a developer, search the [Github issues](https://github.com/opentoonz/opentoonz/issues) and post there.
-
-## Licensing
-
-- Files outside of the `thirdparty` and `stuff/library/mypaint brushes` directories are based on the Modified BSD License.
-  - [modified BSD license](./LICENSE.txt).
-  - Based on this license, this software may be used or changed freely for business or personal use.
-- For files in the `thirdparty` directory:
-  - Please consult with the licenses in the appropriate READMEs or source codes.
-- For files in the `stuff/library/mypaint brushes` directory:
-  - Please see the licenses in `stuff/library/mypaint brushes/Licenses.txt`.
-
-### Special Thanks
-
-This Open Source Program is developed from Toonz, a software originally created by Digital Video, S.p.A., Rome Italy
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开放卡通</font></font></h1><a id="user-content-opentoonz" class="anchor" aria-label="固定链接：OpenToonz" href="#opentoonz"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="/opentoonz/opentoonz/blob/master/doc/README_ja.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">日本语</font></font></a></p>
+<p dir="auto"><a href="https://ci.appveyor.com/project/opentoonz/opentoonz" rel="nofollow"><img src="https://camo.githubusercontent.com/26fe5d23b5e9eb9a775d4e9d30a861e20273cea47860c21a622f7ab78f45c246/68747470733a2f2f63692e6170707665796f722e636f6d2f6170692f70726f6a656374732f7374617475732f6f61356c3570633936346838667634392f6272616e63682f6d61737465723f7376673d74727565" alt="" data-canonical-src="https://ci.appveyor.com/api/projects/status/oa5l5pc964h8fv49/branch/master?svg=true" style="max-width: 100%;"></a>
+<a href="https://travis-ci.org/opentoonz/opentoonz" rel="nofollow"><img src="https://camo.githubusercontent.com/c41f1ecf8cc7bb52bcc3b48e3223afc122fb89d50ed3fff225dcfb7eba66d675/68747470733a2f2f7472617669732d63692e6f72672f6f70656e746f6f6e7a2f6f70656e746f6f6e7a2e7376673f6272616e63683d6d6173746572" alt="" data-canonical-src="https://travis-ci.org/opentoonz/opentoonz.svg?branch=master" style="max-width: 100%;"></a>
+<a href="https://github.com/opentoonz/opentoonz/actions"><img src="https://github.com/opentoonz/opentoonz/workflows/Build/badge.svg?branch=master" alt="" style="max-width: 100%;"></a>
+<a href="https://hosted.weblate.org/engage/opentoonz/" rel="nofollow"><img src="https://camo.githubusercontent.com/9a2744187c7ad52c6721445865992a989223401b46f8226aaa67435531cef45f/68747470733a2f2f686f737465642e7765626c6174652e6f72672f776964676574732f6f70656e746f6f6e7a2f2d2f7376672d62616467652e737667" alt="翻译状态" data-canonical-src="https://hosted.weblate.org/widgets/opentoonz/-/svg-badge.svg" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是 OpenToonz？</font></font></h2><a id="user-content-what-is-opentoonz" class="anchor" aria-label="永久链接：什么是 OpenToonz？" href="#what-is-opentoonz"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="http://dwango.co.jp/english/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenToonz 是DWANGO</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发行的一款 2D 动画软件
+，</font><font style="vertical-align: inherit;">基于</font><font style="vertical-align: inherit;">意大利
+</font><a href="http://www.toonz.com/" rel="nofollow"><font style="vertical-align: inherit;">Digital Video 公司最初开发的</font></a></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Toonz 吉卜力工作室版</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&ZeroWidthSpace;&ZeroWidthSpace;，并
+经过</font><a href="http://www.ghibli.jp/" rel="nofollow"><font style="vertical-align: inherit;">吉卜力工作室</font></a><font style="vertical-align: inherit;">多年的制作进行定制。</font></font><a href="http://www.toonz.com/" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font><a href="http://www.ghibli.jp/" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目要求</font></font></h2><a id="user-content-program-requirements" class="anchor" aria-label="永久链接：项目要求" href="#program-requirements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅 OpenToonz 网站：</font></font><a href="https://opentoonz.github.io/e/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://opentoonz.github.io/e/index.html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2><a id="user-content-installation" class="anchor" aria-label="固定链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://opentoonz.github.io/e/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请从https://opentoonz.github.io/e/index.html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上的最新安装程序下载并安装 OpenToonz </font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">旧版本和不稳定的夜间构建版本也可以在</font></font><a href="https://github.com/opentoonz/opentoonz/releases"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://github.com/opentoonz/opentoonz/releases</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获得。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何本地构建</font></font></h2><a id="user-content-how-to-build-locally" class="anchor" aria-label="永久链接：如何本地构建" href="#how-to-build-locally"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="/opentoonz/opentoonz/blob/master/doc/how_to_build_win.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视窗</font></font></a></li>
+<li><a href="/opentoonz/opentoonz/blob/master/doc/how_to_build_macosx.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">操作系统</font></font></a></li>
+<li><a href="/opentoonz/opentoonz/blob/master/doc/how_to_build_linux.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Linux</font></font></a></li>
+<li><a href="/opentoonz/opentoonz/blob/master/doc/how_to_build_bsd.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">北达科他州</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关如何构建样式表的说明，请</font></font><a href="/opentoonz/opentoonz/blob/master/doc/how_to_stylesheet.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参见此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无法开发但仍想提供帮助？请在合并</font></font><a href="/opentoonz/opentoonz/blob/master/doc/how_to_test_prs.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些步骤</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之前帮助我们测试单个 Pull 请求。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区</font></font></h2><a id="user-content-community" class="anchor" aria-label="固定链接：社区" href="#community"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要分享技巧或进行故障排除，请加入</font></font><a href="https://groups.google.com/forum/#!forum/opentoonz_en" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google OpenToonz 用户论坛</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您在故障排除后发现软件有错误，或者您是开发人员，请搜索</font></font><a href="https://github.com/opentoonz/opentoonz/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Github 问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并在那里发布。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可</font></font></h2><a id="user-content-licensing" class="anchor" aria-label="永久链接：许可" href="#licensing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"></font><code>thirdparty</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和目录</font><font style="vertical-align: inherit;">之外的文件</font></font><code>stuff/library/mypaint brushes</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">均基于修改后的 BSD 许可证。
+</font></font><ul dir="auto">
+<li><a href="/opentoonz/opentoonz/blob/master/LICENSE.txt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">修改后的 BSD 许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据此许可，该软件可以被自由使用或更改以用于商业或个人用途。</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于</font></font><code>thirdparty</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录中的文件：
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请查阅相应 README 或源代码中的许可证。</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于</font></font><code>stuff/library/mypaint brushes</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录中的文件：
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅 中的许可证</font></font><code>stuff/library/mypaint brushes/Licenses.txt</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特别感谢</font></font></h3><a id="user-content-special-thanks" class="anchor" aria-label="永久链接：特别感谢" href="#special-thanks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该开源程序由 Toonz 开发，该软件最初由意大利罗马的 Digital Video, SpA 创建。</font></font></p>
+</article></div>
